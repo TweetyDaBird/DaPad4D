@@ -46,17 +46,11 @@ F 3 "~" H 2450 4550 50  0001 C CNN
 	1    2450 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2450 4650 2750 4650
 Connection ~ 2450 4650
 Wire Wire Line
 	3050 4750 3050 4850
 Wire Wire Line
 	3050 4550 3050 4450
-Wire Wire Line
-	3050 4450 2750 4450
-Wire Wire Line
-	3050 4850 2750 4850
 Wire Wire Line
 	2450 4450 2200 4450
 Connection ~ 2450 4450
@@ -369,37 +363,6 @@ F 3 "" H 2200 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2300 1600 2200 1600
-$Comp
-L Device:C_Small C3
-U 1 1 5FC94497
-P 2750 4550
-F 0 "C3" H 2842 4596 50  0000 L CNN
-F 1 "C" H 2842 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2788 4400 50  0001 C CNN
-F 3 "~" H 2750 4550 50  0001 C CNN
-	1    2750 4550
-	1    0    0    -1  
-$EndComp
-Connection ~ 2750 4450
-Wire Wire Line
-	2750 4450 2450 4450
-Connection ~ 2750 4650
-Wire Wire Line
-	2750 4650 3050 4650
-$Comp
-L Device:C_Small C4
-U 1 1 5FC94FAA
-P 2750 4750
-F 0 "C4" H 2842 4796 50  0000 L CNN
-F 1 "C" H 2842 4705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2788 4600 50  0001 C CNN
-F 3 "~" H 2750 4750 50  0001 C CNN
-	1    2750 4750
-	1    0    0    -1  
-$EndComp
-Connection ~ 2750 4850
-Wire Wire Line
-	2750 4850 2450 4850
 Wire Wire Line
 	5850 2450 6700 2450
 Wire Wire Line
@@ -442,4 +405,10 @@ Wire Wire Line
 	8100 2100 7850 2100
 Wire Wire Line
 	7850 2100 7850 1650
+Wire Wire Line
+	2450 4850 3050 4850
+Wire Wire Line
+	2450 4450 3050 4450
+Wire Wire Line
+	2450 4650 3050 4650
 $EndSCHEMATC
