@@ -9,16 +9,19 @@ This source describes Open Hardware and is licensed under the CERN-OHL-S v2+.
 You may redistribute and modify this source and make products using it under
 the terms of the CERN-OHL-S v2 or later revisions. 
 
-This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
+THIS SOURCE IS DISTRIBUTED "AS IS", WITHOUT ANY EXPRESS OR IMPLIED WARRANTY,
 INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A
-PARTICULAR PURPOSE. 
+PARTICULAR PURPOSE.IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+SOURCE OR THE USE OR OTHER DEALINGS IN THE SOURCE. 
 
 Please see the CERN-OHL-S v2 for applicable conditions. 
 https://ohwr.org/cern_ohl_s_v2.txt
 
 Source location: https://github.com/TweetyDaBird/
 
-As per CERN-OHL-S v2 section 4, should You produce hardware based on this
-source, You must where practicable maintain the Source Location visible
-on the circuit board of the hardware or other products you make using this
+As per CERN-OHL-S v2 section 4, should YOU produce hardware based on this
+source, YOU must where practicable maintain the SOURCE LOCATION visible
+on the circuit board of the hardware or other products made using this
 source.
