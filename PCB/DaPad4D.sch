@@ -58,23 +58,23 @@ Wire Wire Line
 	3250 2000 3500 2000
 Connection ~ 3500 2000
 $Comp
-L Lily58-cache:LED_SK6812MINI D5
+L Keyboard_Library:SK6812MINI D5
 U 1 1 5FA519E9
 P 9000 1750
 F 0 "D5" H 9344 1796 50  0000 L CNN
 F 1 "LED_SK6812MINI" H 9344 1705 50  0000 L CNN
-F 2 "Keyboard Library:SK6812MINI_rev" H 9050 1450 50  0001 L TNN
+F 2 "Keyboard Library:SK6812MINI_Midmount_Reversible" H 9050 1450 50  0001 L TNN
 F 3 "" H 9100 1375 50  0001 L TNN
 	1    9000 1750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lily58-cache:LED_SK6812MINI D6
+L Keyboard_Library:SK6812MINI D6
 U 1 1 5FA51F36
 P 9850 2200
 F 0 "D6" H 10194 2246 50  0000 L CNN
 F 1 "LED_SK6812MINI" H 10194 2155 50  0000 L CNN
-F 2 "Keyboard Library:SK6812MINI_rev" H 9900 1900 50  0001 L TNN
+F 2 "Keyboard Library:SK6812MINI_Midmount_Reversible" H 9900 1900 50  0001 L TNN
 F 3 "" H 9950 1825 50  0001 L TNN
 	1    9850 2200
 	1    0    0    -1  
@@ -85,7 +85,7 @@ U 1 1 5FCF0092
 P 5750 2800
 F 0 "SW4" H 5750 3085 50  0000 C CNN
 F 1 "SW_Push" H 5750 2994 50  0000 C CNN
-F 2 "Keyboard Library:Kailh_socket_MX_reversible_1.0u" H 5750 3000 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_reversible_RGB" H 5750 3000 50  0001 C CNN
 F 3 "~" H 5750 3000 50  0001 C CNN
 	1    5750 2800
 	1    0    0    -1  
@@ -96,7 +96,7 @@ U 1 1 5FCEFD49
 P 5200 2800
 F 0 "SW3" H 5200 3085 50  0000 C CNN
 F 1 "SW_Push" H 5200 2994 50  0000 C CNN
-F 2 "Keyboard Library:Kailh_socket_MX_reversible_1.0u" H 5200 3000 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_reversible_RGB" H 5200 3000 50  0001 C CNN
 F 3 "~" H 5200 3000 50  0001 C CNN
 	1    5200 2800
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5FCEF6D3
 P 4650 2800
 F 0 "SW2" H 4650 3085 50  0000 C CNN
 F 1 "SW_Push" H 4650 2994 50  0000 C CNN
-F 2 "Keyboard Library:Kailh_socket_MX_reversible_1.0u" H 4650 3000 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_reversible_RGB" H 4650 3000 50  0001 C CNN
 F 3 "~" H 4650 3000 50  0001 C CNN
 	1    4650 2800
 	1    0    0    -1  
@@ -118,7 +118,7 @@ U 1 1 5FCEF1BC
 P 4100 2800
 F 0 "SW1" H 4100 3085 50  0000 C CNN
 F 1 "SW_Push" H 4100 2994 50  0000 C CNN
-F 2 "Keyboard Library:Kailh_socket_MX_reversible_1.0u" H 4100 3000 50  0001 C CNN
+F 2 "keyswitches:Kailh_socket_MX_reversible_RGB" H 4100 3000 50  0001 C CNN
 F 3 "~" H 4100 3000 50  0001 C CNN
 	1    4100 2800
 	1    0    0    -1  
@@ -198,23 +198,23 @@ D0
 Text GLabel 3250 2000 0    50   Input ~ 0
 D1
 $Comp
-L Lily58-cache:LED_SK6812MINI D4
+L Keyboard_Library:SK6812MINI D4
 U 1 1 5FA51318
 P 8150 2150
 F 0 "D4" H 8494 2196 50  0000 L CNN
 F 1 "LED_SK6812MINI" H 8494 2105 50  0000 L CNN
-F 2 "Keyboard Library:SK6812MINI_rev" H 8200 1850 50  0001 L TNN
+F 2 "Keyboard Library:SK6812MINI_Midmount_Reversible" H 8200 1850 50  0001 L TNN
 F 3 "" H 8250 1775 50  0001 L TNN
 	1    8150 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lily58-cache:LED_SK6812MINI D3
+L Keyboard_Library:SK6812MINI D3
 U 1 1 5FA3900B
 P 7300 1750
 F 0 "D3" H 7644 1796 50  0000 L CNN
 F 1 "LED_SK6812MINI" H 7644 1705 50  0000 L CNN
-F 2 "Keyboard Library:SK6812MINI_rev" H 7350 1450 50  0001 L TNN
+F 2 "Keyboard Library:SK6812MINI_Midmount_Reversible" H 7350 1450 50  0001 L TNN
 F 3 "" H 7400 1375 50  0001 L TNN
 	1    7300 1750
 	1    0    0    -1  
